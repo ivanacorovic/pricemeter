@@ -66,3 +66,7 @@
 
 - name: rbenv | set gemrc
   copy: src=gemrc dest=/home/deploy/.gemrc owner=deploy group=root mode=0644
+
+- name: rbenv | Install Bundler
+  command: bash -lc "gem install bundler"
+
