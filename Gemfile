@@ -8,6 +8,7 @@ gem 'high_voltage', '~> 2.1.0'
 gem 'devise'
 gem 'faker', '1.1.2'
 gem "paperclip", "~> 4.1"
+gem 'searchkick'
 gem 'activeadmin', github: 'gregbell/active_admin'
 #gem 'will_paginate', '3.0.4'
 #gem 'bootstrap-will_paginate'

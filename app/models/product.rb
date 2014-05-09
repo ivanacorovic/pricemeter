@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-	
+	searchkick
 	has_many :pricemeasures, dependent: :delete_all
 	has_many :supermarkets, through: :pricemeasures
 	has_many :listitems, dependent: :delete_all
