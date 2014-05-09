@@ -15,3 +15,8 @@ test:
   database: pricemeter_test
 
 
+production:
+  <<: *default
+  database: pricemeter_production
+
+

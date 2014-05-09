@@ -16,6 +16,7 @@ gem 'kaminari', '>= 0.12.2'
 gem 'roo', '~> 1.13.2'
 gem 'foreigner'
 gem 'factory_girl_rails', '4.2.1'
+gem 'rails_12factor'
 
 group :test, :development do
   gem 'rspec-rails'
