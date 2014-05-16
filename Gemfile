@@ -17,6 +17,7 @@ gem 'roo', '~> 1.13.2'
 gem 'foreigner'
 gem 'factory_girl_rails', '4.2.1'
 gem 'rails_12factor'
+gem 'github-pages'
 
 group :test, :development do
   gem 'rspec-rails'
