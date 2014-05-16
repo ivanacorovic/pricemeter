@@ -1,0 +1,9 @@
+---
+- name: Restart ssh
+  action: service name=ssh state=restarted
+  
+- name: Restart postgresql
+  service: name=postgresql state=restarted
+
+- name: restart nginx
+  action: service name=nginx pattern=/etc/init.d/nginx state=restarted enabled=yes
